@@ -1,1 +1,1 @@
-@join player.print='hellllo'
+@join player.print='asdfasdfasdf'
