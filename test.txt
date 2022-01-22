@@ -1,7 +1,0 @@
-@join {
-    player.print='aaaaaaaaahhhhhhhh'
-}
-
-@left {
-log 'asdfadsfas'
-}
