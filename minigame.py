@@ -1,0 +1,4 @@
+@command
+{
+    if(command.split())
+}
