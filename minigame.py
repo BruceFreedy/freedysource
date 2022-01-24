@@ -3,7 +3,7 @@
     # args = message.split=' '
     if(!message.toLowerCase.startWith="/mgstart") return
     player.print='pre'
-    return
+    return true;
     player.print='sff'
     player.print='debug'
 }
