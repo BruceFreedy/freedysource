@@ -1,7 +1,5 @@
 @command
 {
-    # args = message.split=' '
-    if(!message.toLowerCase.startWith="/mgstart") return
-    return
-    player.print='debug'
+    result = message.startWith("/start")
+    player.print=result
 }
