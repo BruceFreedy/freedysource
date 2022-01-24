@@ -1,5 +1,7 @@
 @command
 {
+    before = millisec
     args = message.split=' '
-    player.print=args
+    after = millisec
+    player.print=after-before
 }
