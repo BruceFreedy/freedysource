@@ -1,4 +1,4 @@
 @command
 {
-    if(command.split())
+
 }
