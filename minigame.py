@@ -1,4 +1,5 @@
 @command
 {
-    player.print=message
+    args = message.split=' '
+    player.print=args
 }
