@@ -1,4 +1,5 @@
-@command {
-    args = command.split(' ')
-    player.print="[" +args + "]"
+@command
+{
+    args = message.split(' ')
+    player.print=args
 }
