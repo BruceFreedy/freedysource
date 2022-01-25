@@ -21,6 +21,7 @@ countDownTask = null  //게임 카운트 다운 스케줄 작업 ID
         } else player.print('&6미니게임 시작까지 ' + (gameStartAmount - online.size) + '명이 더 필요합니다')
 }
 
+@left left(player)
 left(player) {
         if (!online.contains(player)) return
         online.remove(player)
