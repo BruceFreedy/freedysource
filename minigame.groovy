@@ -1,4 +1,4 @@
-name = "테스트"  //게임 세션 이름  ex) CashmereCat9의 게임
+name = "테투"  //게임 세션 이름  ex) CashmereCat9의 게임
 status = "대기"  //게임 상태 { 대기, 카운트다운, 플레이, 종료 }
 online = []  //게임에 참여 중인 플레이어 목록
 gameStartAmount = 2  //게임 시작 인원
