@@ -9,7 +9,7 @@ countDownTask = null  //게임 카운트 다운 스케줄 작업 ID
  */
 @command
 {
-        if ((message.toLowerCase.startWith("/gamestart"))) return  //명령어가 대소문자 구분없이 /gamestart 로 시작하는가
+        if (!(message.toLowerCase.startWith("/gamestart"))) return  //명령어가 대소문자 구분없이 /gamestart 로 시작하는가
         if (online.contains(player)) return player.print="이미 그 미니게임에 있습니다"
         if (status != "대기") return player.print='게임이 이미 시작해서 참여할 수 없습니다'
         online.add(player)
