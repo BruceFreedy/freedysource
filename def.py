@@ -4,5 +4,5 @@ val = "aaa"
 
 @interact
 {
-    player.print=val.size
+    player.print=val.length
 }
