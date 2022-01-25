@@ -1,5 +1,5 @@
 name = "테스트"  //게임 세션 이름  ex) CashmereCat9의 게임
-status = null  //게임 상태 { 대기, 카운트다운, 플레이, 종료 }
+status = "대기"  //게임 상태 { 대기, 카운트다운, 플레이, 종료 }
 online = []  //게임에 참여 중인 플레이어 목록
 gameStartAmount = 2  //게임 시작 인원
 countDownSize = 5  //게임 카운트 다운 시간
@@ -9,7 +9,7 @@ countDownTask = null  //게임 카운트 다운 스케줄 작업 ID
  */
 @command
 {
-        if (!message.toLowerCase.startWith("/gamestart")) return  //명령어가 대소문자 구분없이 /gamestart 로 시작하는가
+        if (!(message.toLowerCase.startWith("/gamestart"))) return  //명령어가 대소문자 구분없이 /gamestart 로 시작하는가
         if (online.contains(player)) return player.print="이미 그 미니게임에 있습니다"
         if (status != "대기") return player.print='게임이 이미 시작해서 참여할 수 없습니다'
         online.add(player)
