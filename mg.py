@@ -7,5 +7,11 @@ joined = []
 @command
 {
     args = message.split(" ")
+    if(args.get(0).lowerCase!="/gamestart") return
+
+
+
+
+
     joined.add=player
 }
