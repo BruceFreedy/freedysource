@@ -1,5 +1,5 @@
 a = "AfF"
 @move
 {
-    player.print=a.lowerCase
+    player.print(a.lowerCase)
 }
