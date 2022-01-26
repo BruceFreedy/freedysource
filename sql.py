@@ -1,3 +1,1 @@
-class sql {
-    conn = mysql("localhost", "freedy", "adanceoffireandice", "ang", 9999)
-}
+#     conn = mysql("localhost", "freedy", "adanceoffireandice", "ang", 9999)
