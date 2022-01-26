@@ -8,5 +8,6 @@ joined = []
 {
     player.print("[" + message + "]")
     player.print(message.split(" "))
-    player.print(message.split(" ").get(0).lowerCase)
+    args = message.split(" ")
+    player.print(args.get(0).lowerCase)
 }
