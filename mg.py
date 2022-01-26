@@ -1,11 +1,4 @@
-online = []
-@join online.add(player)
-@left online.remove(player)
-
-joined = []
-
-@command
-{
+func() {
     var = 100
-    player.print=var
+    return var
 }
