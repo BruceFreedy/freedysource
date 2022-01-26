@@ -1,4 +1,4 @@
 func() {
     var = 100
-    return var
+    return 100000
 }
