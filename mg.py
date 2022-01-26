@@ -6,8 +6,6 @@ joined = []
 
 @command
 {
-    player.print("[" + message + "]")
-    player.print(message.split(" "))
-    args = message.split(" ")
-    player.print(args.get(0).lowerCase)
+    var = 100
+    player.print=var
 }
