@@ -38,7 +38,7 @@ start() {
         for(i = 0; i < online.size; i++)
         {
             p = online.get(i)
-            p.set(팀, {if(i%2==0) return 빨강 else return 파랑})
+            p.set(팀, "")
         }
     }
 }
