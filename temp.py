@@ -1,5 +1,5 @@
-a = 100
+a = "AfF"
 @move
 {
-    player.print=a
+    player.print=a.lowerCase
 }
