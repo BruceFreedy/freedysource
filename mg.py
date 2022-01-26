@@ -23,7 +23,7 @@ online = []
     command = args.get(0)
     if (command.lowerCase != "/gamestart") return  # 명령어가 게임시작이 아니면 함수를 즉시 끝냅니다
     if (online.contains(player)) return player.print = "&c이미 게임에 참여하고 있습니다"
-    player.print=상태
+    testcode
     if (상태 != 대기) return player.print = "&c이미 게임이 시작되서 참여할 수 없습니다"
     online.add(player)
     online.each=e.player.print="&6" + player.name + "이(가) " + 게임이름 + "에 참여했습니다"
