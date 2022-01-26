@@ -7,8 +7,8 @@ joined = []
 @command
 {
     player.print("[" + message + "]")
+    player.print(message.split(" "))
     args = message.split(" ")
-    player.print(args)
     player.print=args.get(0).lowerCase
     if(args.get(0).lowerCase!="/gamestart") return
 
