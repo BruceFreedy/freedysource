@@ -28,7 +28,7 @@
     if (참여자.contains(player)) return player.print = "&c이미 게임에 참여하고 있습니다"
     if (상태 != 대기) return player.print = "&c이미 게임이 시작되서 참여할 수 없습니다"
     참여자.add=player
-    참여자.each=print ( "&6" + player.name + "이(가) " + 게임이름 + "에 참여했습니다" )
+    참여자.each=this.print ( "&6" + player.name + "이(가) " + 게임이름 + "에 참여했습니다" )
     if(참여자.size >= 시작인원) {
         상태 = 플레이
         start()
@@ -36,6 +36,5 @@
 }
 
 start() {
-    참여자.get(0).print='a'
-    참여자.each=print="&a" + 게임이름 + "게임이 시작되었습니다"
+    참여자.each=this.print="&a" + 게임이름 + "게임이 시작되었습니다"
 }
