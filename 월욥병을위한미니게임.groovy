@@ -47,13 +47,13 @@ left(player) {
     if (참여자.contains(player)) {
         참여자.each=print="&c" + player.name + "이(가) " + 게임이름 + "을 떠났습니다"
         참여자.remove(player)
+        if (player.get(시작전인벤토리) != null)
+            player.inventory.contents = player.get(시작전인벤토리)
         if (참여자.size < 시작인원 && 시작타이머작업 != 0) {
             canceltask 시작타이머작업
             시작타이머작업 = 0
             참여자.each=print="&c플레이어가 충분하지 않아서 시작 타이머를 중지합니다"
         }
-        if (player.get(시작전인벤토리) != null)
-            player.inventory.contents = player.get(시작전인벤토리)
     }
 }
 
