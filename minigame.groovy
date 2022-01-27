@@ -8,7 +8,7 @@
 빨강 = "빨강"
 파랑 = "파랑"
 //////////////////////////////////////////////////////////
-게임이름 = "f.u.c.k.y.o.u"
+게임이름 = "beta"
 //////////////////////////////////////////////////////////
 시작인원 = 1
 시작타이머 = 5
@@ -46,7 +46,7 @@
 left(player) {
     if (참여자.contains(player)) {
         참여자.each=print="&c" + player.name + "이(가) " + 게임이름 + "을 떠났습니다"
-        참여자.remove(player)
+        참여자.remove=player
         if (player.get(시작전인벤토리) != null)
             player.inventory.contents = player.get(시작전인벤토리)
         if (참여자.size < 시작인원 && 시작타이머작업 != 0) {
