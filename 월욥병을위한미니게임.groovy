@@ -45,6 +45,7 @@
 
 left(player) {
     if (참여자.contains(player)) {
+        참여자.each=print="&c" + player.name + "이(가) " + 게임이름 + "을 떠났습니다"
         참여자.remove(player)
         if (참여자.size < 시작인원 && 시작타이머작업 != 0) {
             canceltask 시작타이머작업
