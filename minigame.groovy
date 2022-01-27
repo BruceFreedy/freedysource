@@ -62,7 +62,7 @@ start() {
     참여자.each={
         set(시작전인벤토리, inventory.contents)
         inventory.clear
-        inventory.set(0, item(material IRON_SWORD))
-        inventory.set(1, item(material BREAD, 64))
+        inventory.set(0, item(material("IRON_SWORD")))
+        inventory.set(1, item(material("BREAD"), 64))
     }
 }
